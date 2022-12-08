@@ -19,6 +19,7 @@
     ]
   },
   "dependencies": {
+    "@actions/core": "1.10.0",
     "@sentry/browser": "6.2.5",
     "@sentry/integrations": "6.2.5",
     "@testing-library/jest-dom": "5.16.2",
@@ -87,7 +88,7 @@
     ],
     "resetMocks": false
   },
-  "name": "excalidraw",
+  "name": "lecire",
   "prettier": "@excalidraw/prettier-config",
   "private": true,
   "scripts": {

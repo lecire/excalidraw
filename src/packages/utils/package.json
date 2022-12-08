@@ -1,5 +1,5 @@
 {
-  "name": "@excalidraw/utils",
+  "name": "@lecire/utils",
   "version": "0.1.2",
   "main": "dist/excalidraw-utils.min.js",
   "files": [

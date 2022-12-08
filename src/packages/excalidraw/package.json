@@ -1,6 +1,6 @@
 {
   "name": "@lecire/excalidraw",
-  "version": "0.13.0-mod.2",
+  "version": "0.13.0-mod.2-cb4f3bd5",
   "main": "main.js",
   "types": "types/packages/excalidraw/index.d.ts",
   "files": [
