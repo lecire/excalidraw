@@ -4412,10 +4412,11 @@ class App extends React.Component<AppProps, AppState> {
           lastPoint && lastPoint[0] === dx && lastPoint[1] === dy;
 
         if (!discardPoint) {
-          const pressures = draggingElement.simulatePressure
+          let pressures = draggingElement.simulatePressure
             ? draggingElement.pressures
             : [...draggingElement.pressures, event.pressure];
 
+          pressures = pressures.map(x => 1)
           mutateElement(draggingElement, {
             points: [...points, [dx, dy]],
             pressures,
